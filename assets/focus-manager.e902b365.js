@@ -1,0 +1,1 @@
+import{i as s,a6 as i}from"./index.e2a387ad.js";function c(){return s(i)}let e=[],t=[];function u(a){t=t.filter(n=>n!==a)}function l(a){u(a),t.push(a)}function r(a){u(a),t.length===0&&e.length!==0&&(e[e.length-1](),e=[])}function F(a){t.length===0?a():e.push(a)}function f(a){e=e.filter(n=>n!==a)}export{F as a,l as b,f as c,r,c as u};
